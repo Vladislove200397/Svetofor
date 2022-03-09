@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B93903C527D9576100A54E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93903C427D9576100A54E00 /* AppDelegate.swift */; };
+		B93903C727D9576100A54E00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93903C627D9576100A54E00 /* SceneDelegate.swift */; };
+		B93903C927D9576100A54E00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93903C827D9576100A54E00 /* ViewController.swift */; };
+		B93903CC27D9576100A54E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93903CA27D9576100A54E00 /* Main.storyboard */; };
+		B93903CF27D9576100A54E00 /* Svetofor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B93903CD27D9576100A54E00 /* Svetofor.xcdatamodeld */; };
+		B93903D127D9576300A54E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93903D027D9576300A54E00 /* Assets.xcassets */; };
+		B93903D427D9576300A54E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93903D227D9576300A54E00 /* LaunchScreen.storyboard */; };
+		B93903DF27D9576300A54E00 /* SvetoforTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93903DE27D9576300A54E00 /* SvetoforTests.swift */; };
+		B93903E927D9576300A54E00 /* SvetoforUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93903E827D9576300A54E00 /* SvetoforUITests.swift */; };
+		B93903EB27D9576300A54E00 /* SvetoforUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93903EA27D9576300A54E00 /* SvetoforUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B93903DB27D9576300A54E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B93903B927D9576100A54E00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B93903C027D9576100A54E00;
+			remoteInfo = Svetofor;
+		};
+		B93903E527D9576300A54E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B93903B927D9576100A54E00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B93903C027D9576100A54E00;
+			remoteInfo = Svetofor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B93903C127D9576100A54E00 /* Svetofor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Svetofor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93903C427D9576100A54E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B93903C627D9576100A54E00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B93903C827D9576100A54E00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B93903CB27D9576100A54E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B93903CE27D9576100A54E00 /* Svetofor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Svetofor.xcdatamodel; sourceTree = "<group>"; };
+		B93903D027D9576300A54E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B93903D327D9576300A54E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B93903D527D9576300A54E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93903DA27D9576300A54E00 /* SvetoforTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SvetoforTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93903DE27D9576300A54E00 /* SvetoforTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvetoforTests.swift; sourceTree = "<group>"; };
+		B93903E427D9576300A54E00 /* SvetoforUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SvetoforUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93903E827D9576300A54E00 /* SvetoforUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvetoforUITests.swift; sourceTree = "<group>"; };
+		B93903EA27D9576300A54E00 /* SvetoforUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvetoforUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B93903BE27D9576100A54E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93903D727D9576300A54E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93903E127D9576300A54E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B93903B827D9576100A54E00 = {
+			isa = PBXGroup;
+			children = (
+				B93903C327D9576100A54E00 /* Svetofor */,
+				B93903DD27D9576300A54E00 /* SvetoforTests */,
+				B93903E727D9576300A54E00 /* SvetoforUITests */,
+				B93903C227D9576100A54E00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B93903C227D9576100A54E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B93903C127D9576100A54E00 /* Svetofor.app */,
+				B93903DA27D9576300A54E00 /* SvetoforTests.xctest */,
+				B93903E427D9576300A54E00 /* SvetoforUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B93903C327D9576100A54E00 /* Svetofor */ = {
+			isa = PBXGroup;
+			children = (
+				B93903C427D9576100A54E00 /* AppDelegate.swift */,
+				B93903C627D9576100A54E00 /* SceneDelegate.swift */,
+				B93903C827D9576100A54E00 /* ViewController.swift */,
+				B93903CA27D9576100A54E00 /* Main.storyboard */,
+				B93903D027D9576300A54E00 /* Assets.xcassets */,
+				B93903D227D9576300A54E00 /* LaunchScreen.storyboard */,
+				B93903D527D9576300A54E00 /* Info.plist */,
+				B93903CD27D9576100A54E00 /* Svetofor.xcdatamodeld */,
+			);
+			path = Svetofor;
+			sourceTree = "<group>";
+		};
+		B93903DD27D9576300A54E00 /* SvetoforTests */ = {
+			isa = PBXGroup;
+			children = (
+				B93903DE27D9576300A54E00 /* SvetoforTests.swift */,
+			);
+			path = SvetoforTests;
+			sourceTree = "<group>";
+		};
+		B93903E727D9576300A54E00 /* SvetoforUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B93903E827D9576300A54E00 /* SvetoforUITests.swift */,
+				B93903EA27D9576300A54E00 /* SvetoforUITestsLaunchTests.swift */,
+			);
+			path = SvetoforUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B93903C027D9576100A54E00 /* Svetofor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93903EE27D9576300A54E00 /* Build configuration list for PBXNativeTarget "Svetofor" */;
+			buildPhases = (
+				B93903BD27D9576100A54E00 /* Sources */,
+				B93903BE27D9576100A54E00 /* Frameworks */,
+				B93903BF27D9576100A54E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Svetofor;
+			productName = Svetofor;
+			productReference = B93903C127D9576100A54E00 /* Svetofor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B93903D927D9576300A54E00 /* SvetoforTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93903F127D9576300A54E00 /* Build configuration list for PBXNativeTarget "SvetoforTests" */;
+			buildPhases = (
+				B93903D627D9576300A54E00 /* Sources */,
+				B93903D727D9576300A54E00 /* Frameworks */,
+				B93903D827D9576300A54E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B93903DC27D9576300A54E00 /* PBXTargetDependency */,
+			);
+			name = SvetoforTests;
+			productName = SvetoforTests;
+			productReference = B93903DA27D9576300A54E00 /* SvetoforTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B93903E327D9576300A54E00 /* SvetoforUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93903F427D9576300A54E00 /* Build configuration list for PBXNativeTarget "SvetoforUITests" */;
+			buildPhases = (
+				B93903E027D9576300A54E00 /* Sources */,
+				B93903E127D9576300A54E00 /* Frameworks */,
+				B93903E227D9576300A54E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B93903E627D9576300A54E00 /* PBXTargetDependency */,
+			);
+			name = SvetoforUITests;
+			productName = SvetoforUITests;
+			productReference = B93903E427D9576300A54E00 /* SvetoforUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B93903B927D9576100A54E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B93903C027D9576100A54E00 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B93903D927D9576300A54E00 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B93903C027D9576100A54E00;
+					};
+					B93903E327D9576300A54E00 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B93903C027D9576100A54E00;
+					};
+				};
+			};
+			buildConfigurationList = B93903BC27D9576100A54E00 /* Build configuration list for PBXProject "Svetofor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B93903B827D9576100A54E00;
+			productRefGroup = B93903C227D9576100A54E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B93903C027D9576100A54E00 /* Svetofor */,
+				B93903D927D9576300A54E00 /* SvetoforTests */,
+				B93903E327D9576300A54E00 /* SvetoforUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B93903BF27D9576100A54E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93903D427D9576300A54E00 /* LaunchScreen.storyboard in Resources */,
+				B93903D127D9576300A54E00 /* Assets.xcassets in Resources */,
+				B93903CC27D9576100A54E00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93903D827D9576300A54E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93903E227D9576300A54E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B93903BD27D9576100A54E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93903C927D9576100A54E00 /* ViewController.swift in Sources */,
+				B93903CF27D9576100A54E00 /* Svetofor.xcdatamodeld in Sources */,
+				B93903C527D9576100A54E00 /* AppDelegate.swift in Sources */,
+				B93903C727D9576100A54E00 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93903D627D9576300A54E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93903DF27D9576300A54E00 /* SvetoforTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93903E027D9576300A54E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93903EB27D9576300A54E00 /* SvetoforUITestsLaunchTests.swift in Sources */,
+				B93903E927D9576300A54E00 /* SvetoforUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B93903DC27D9576300A54E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B93903C027D9576100A54E00 /* Svetofor */;
+			targetProxy = B93903DB27D9576300A54E00 /* PBXContainerItemProxy */;
+		};
+		B93903E627D9576300A54E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B93903C027D9576100A54E00 /* Svetofor */;
+			targetProxy = B93903E527D9576300A54E00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B93903CA27D9576100A54E00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B93903CB27D9576100A54E00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B93903D227D9576300A54E00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B93903D327D9576300A54E00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B93903EC27D9576300A54E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B93903ED27D9576300A54E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B93903EF27D9576300A54E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G264CBHMU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Svetofor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Courses.Svetofor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B93903F027D9576300A54E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G264CBHMU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Svetofor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Courses.Svetofor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B93903F227D9576300A54E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G264CBHMU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Courses.SvetoforTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Svetofor.app/Svetofor";
+			};
+			name = Debug;
+		};
+		B93903F327D9576300A54E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G264CBHMU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Courses.SvetoforTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Svetofor.app/Svetofor";
+			};
+			name = Release;
+		};
+		B93903F527D9576300A54E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G264CBHMU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Courses.SvetoforUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Svetofor;
+			};
+			name = Debug;
+		};
+		B93903F627D9576300A54E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G264CBHMU9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Courses.SvetoforUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Svetofor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B93903BC27D9576100A54E00 /* Build configuration list for PBXProject "Svetofor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93903EC27D9576300A54E00 /* Debug */,
+				B93903ED27D9576300A54E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93903EE27D9576300A54E00 /* Build configuration list for PBXNativeTarget "Svetofor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93903EF27D9576300A54E00 /* Debug */,
+				B93903F027D9576300A54E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93903F127D9576300A54E00 /* Build configuration list for PBXNativeTarget "SvetoforTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93903F227D9576300A54E00 /* Debug */,
+				B93903F327D9576300A54E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93903F427D9576300A54E00 /* Build configuration list for PBXNativeTarget "SvetoforUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93903F527D9576300A54E00 /* Debug */,
+				B93903F627D9576300A54E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B93903CD27D9576100A54E00 /* Svetofor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B93903CE27D9576100A54E00 /* Svetofor.xcdatamodel */,
+			);
+			currentVersion = B93903CE27D9576100A54E00 /* Svetofor.xcdatamodel */;
+			path = Svetofor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B93903B927D9576100A54E00 /* Project object */;
+}
